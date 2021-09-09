@@ -1,5 +1,5 @@
 document.addEventListener('keydown',pressed);
-// document.addEventListener('keyup',pressed);
+document.addEventListener('keyup',pressed);
 
 function pressed(e){
     if(keyData[e.key]){
