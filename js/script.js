@@ -1,4 +1,5 @@
-document.addEventListener('keydown',pressed);
+// document.addEventListener('keydown',pressed);
+document.addEventListener('keyup',pressed);
 
 function pressed(e){
     if(keyData[e.key]){
@@ -8,8 +9,9 @@ function pressed(e){
     keyData[me].audio.play();
     document.body.style.background = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     }
-
 }
+
+
 
 
 
